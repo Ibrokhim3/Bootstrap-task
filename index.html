@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>Starter</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="d-flex justify-content-between mb-5">
+        <p class="h2">Gilos.uz/smartphones</p>
+        <button type="button" class="px-4 bg-primary text-white rounded border-0 align-items-center">Add product &#x2B;</button>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <form action="#">
+            <p class="h4">Filter</p>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Search</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Falonchi"
+              />
+              
+                <label for="exampleFormControlInput1" class="form-label"
+                >Price</label
+              >
+              
+                <div class="row">
+                  <div class="col-6">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="From"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="To"
+                    />
+                  </div>
+  
+                </div>
+              
+                  <label for="exampleFormControlInput1" class="form-label"
+                  >Manufacturer</label
+                >
+                <div class="">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>All</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="">
+                  <label for="exampleFormControlInput1" class="form-label"
+                  >Sort by</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Name</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                  <button type="submit" class="btn btn-primary w-100 mt-2">Filter</button>
+                </div>
+              </div>
+            
+          <div class="col-3">
+            <p class="h4">Product list</p>
+            <div class="card">
+              <img src="./assets/images/mark-koch-KiRlN3jjVNU-unsplash.jpg" alt="random image" class="card-img-top">
+              <div class="card-body d-flex flex-column align-items-start">
+                <h5 class="card-title">Gadget title</h5>
+                <p class="bg-warning mb-2 rounded p-1 fw-bold">2.000.000</p>
+                <s class="mb-2">2.000.000</s>
+                <span class="bg-success mb-2 rounded text-white p-1 fs-6 fw-bold">Xiaomi (Gadget firmasi)</span>
+              <time class="mb-2">12.05.2022</time>
+              <div class="">
+                <div class="d-flex gap-2 mb-2">
+                  <span class="bg-primary text-white rounded p-1 fw-bold">8gb</span><span class="bg-primary text-white rounded p-1 fw-bold">128gb</span><span class="bg-primary text-white rounded p-1 fw-bold">Waterproof</span>
+                </div>
+                <span class="bg-primary text-white rounded p-1 fw-bold">Falon yaxshi tarafi</span>
+              </div>
+              
+              </div>
+
+            </div>
+          </div>
+          <div class="d-flex col ml-auto"><p class="ms-auto">Count: 4</p></div>
+        </div> 
+      
+     
+      </div>
+      
+  </body>
+</html>
